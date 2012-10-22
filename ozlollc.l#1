@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="no" active="no"/>
@@ -1052,13 +1052,8 @@
 </package>
 <package name="GAD_PAC_SMD">
 <wire x1="-2.5" y1="6.2" x2="2.5" y2="6.2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="6.2" x2="2.5" y2="-6.2" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-6.2" x2="-2.5" y2="-6.2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-6.2" x2="-2.5" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.9" x2="-0.5" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-1.9" x2="-0.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="2" x2="-2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2" x2="-2.5" y2="6.2" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="-1.9" x2="-0.3" y2="2" width="0.127" layer="21"/>
 <smd name="1" x="-2" y="2.58" dx="0.74" dy="2.6" layer="1" rot="R90"/>
 <smd name="2" x="2" y="2.58" dx="0.74" dy="2.6" layer="1" rot="R90"/>
 <smd name="3" x="-2" y="1.31" dx="0.74" dy="2.6" layer="1" rot="R90"/>
@@ -1619,6 +1614,18 @@
 </technologies>
 </device>
 <device name="" package="GAD_PAC_SMD">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="10" pad="10"/>
+<connect gate="X" pin="2" pad="2"/>
+<connect gate="X" pin="3" pad="3"/>
+<connect gate="X" pin="4" pad="4"/>
+<connect gate="X" pin="5" pad="5"/>
+<connect gate="X" pin="6" pad="6"/>
+<connect gate="X" pin="7" pad="7"/>
+<connect gate="X" pin="8" pad="8"/>
+<connect gate="X" pin="9" pad="9"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

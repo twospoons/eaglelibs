@@ -1565,8 +1565,8 @@
 <wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
 <wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
 <wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<text x="5.08" y="-10.16" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-2.54" y="-10.16" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+<text x="-2.54" y="-10.16" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
 <pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -1686,7 +1686,7 @@ http://www.ghielectronics.com/catalog/product/353</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POTENTIOMETER">
+<deviceset name="POTENTIOMETER" uservalue="yes">
 <description>TC33X - BOURNS.INC
 DIGIKEY#
 TC33X-502ETR-ND (5K OHMS)</description>
@@ -1700,11 +1700,6 @@ TC33X-502ETR-ND (5K OHMS)</description>
 <connect gate="G$1" pin="E" pad="3"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
-<technologies>
-<technology name="TC33X">
-<attribute name="TC33X-502ETR-ND" value="5K" constant="no"/>
-</technology>
-</technologies>
 </device>
 </devices>
 </deviceset>
